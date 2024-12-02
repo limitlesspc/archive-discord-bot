@@ -1,3 +1,3 @@
-import { limitlesspc } from "@limitlesspc/eslint-config";
+import { iz7n } from "@limitlesspc/eslint-config";
 
-export default limitlesspc();
+export default iz7n();
