@@ -1,5 +1,5 @@
 #!/bin/sh
 while true; do
     nr start
-    sleep 1
+    sleep 10
 done
