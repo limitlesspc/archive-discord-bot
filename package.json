@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@limitlesspc/eslint-config": "^0.18.4",
-    "@limitlesspc/prettier-config": "^1.1.1",
+    "@limitlesspc/prettier-config": "^1.2.1",
     "@types/bun": "1.2.18",
     "eslint": "9.39.2",
     "typescript": "5.8.3"
