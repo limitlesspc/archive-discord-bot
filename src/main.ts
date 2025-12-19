@@ -184,7 +184,7 @@ retryEvent("messageDeleteBulk", async messagesCol => {
     .where(inArray(messages.id, [...messagesCol.keys()]));
 });
 
-client.once("ready", () => {
+client.once("clientReady", () => {
   console.log(`✅ Ready!`);
   client.user?.setActivity(`with Bun v${Bun.version}`);
   setTimeout(() => client.user?.setActivity(), 60_000);
