@@ -1,18 +1,18 @@
 {
   "compilerOptions": {
+    "composite": true,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleDetection": "force",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "composite": true,
-    "downlevelIteration": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": ["ESNext"],
-    "module": "ESNext",
-    "moduleDetection": "force",
-    "moduleResolution": "bundler",
-    "noEmit": true,
-    "skipLibCheck": true,
     "strict": true,
-    "target": "ESNext"
+    "downlevelIteration": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   }
 }

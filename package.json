@@ -1,7 +1,7 @@
 {
   "name": "archive-discord-bot",
-  "module": "src/main.ts",
   "type": "module",
+  "module": "src/main.ts",
   "prettier": "@limitlesspc/prettier-config",
   "scripts": {
     "start": "bun run ./src/main.ts",
@@ -14,10 +14,10 @@
     "fast-glob": "3.3.3"
   },
   "devDependencies": {
-    "@limitlesspc/eslint-config": "^0.16.2",
+    "@limitlesspc/eslint-config": "^0.18.4",
     "@limitlesspc/prettier-config": "^1.1.1",
     "@types/bun": "1.2.18",
-    "eslint": "9.19.0",
+    "eslint": "9.39.2",
     "typescript": "5.8.3"
   },
   "trustedDependencies": [
